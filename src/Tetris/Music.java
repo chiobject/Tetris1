@@ -23,7 +23,7 @@ public class Music {
             clip.loop(Clip.LOOP_CONTINUOUSLY);  // 노래 무한 재생
             clip.start();  // 노래 재생 시작
         } catch (Exception e) {
-            System.err.println("CAN NOT PLAY THE MUSIC");  // 오류 발생 시 메시지 출력
+            System.err.println("err : " + e);  // 오류 발생 시 메시지 출력
         }
     }
 
